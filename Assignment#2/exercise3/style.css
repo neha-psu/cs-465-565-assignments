@@ -1,0 +1,86 @@
+.{
+  box-sizing: border-box;
+  padding:0;
+  margin:0;
+  background-color:white;
+}
+
+#project_desc{
+  padding:20px;
+}
+
+.inslider{
+  height: 220px;
+}
+.box{
+  margin-top: 20px;
+  height: 1000px;
+}
+
+ul {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+ul li {
+  float: right;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+
+.color{
+  background-color:rgb(105,105,105);
+}
+
+.nav-text:hover{
+
+  color: blue;
+}
+
+body.landing-page{
+color: #676a6c;
+font-family: 'Open Sans', helvetica, arial, sans-serif;
+background-color: #fff;
+}
+
+a {
+cursor: pointer;
+}
+
+
+#contact{
+  background: gray;
+  padding:10px;
+}
+
+section{
+  
+  text-align: center;
+  color:black;
+  background: linear-gradient(
+            to bottom,
+             rgb(255,255,255),
+            rgb(208,208,208));
+  padding:30px;
+}
+.career_div{
+  padding-top: 5px;
+  background-color:rgb(210,210,210);
+}

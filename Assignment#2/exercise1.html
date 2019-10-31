@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML Form</title>
+    <style>
+        div{
+            background-color: white;
+            margin: 100px;
+            margin-left: 500px;
+            margin-right:500px;
+        }
+        body{
+            background: linear-gradient(
+            to right,
+              rgb(10,180,10),
+              rgb(250,250,20));
+            text-align: center;
+            }
+        input{
+            padding : 10px;
+            font-family:helvetica;
+        }
+        form{
+            padding: 10px;
+        }
+        h4{
+            font-family:helvetica;
+            padding-top: 20px;
+
+        }
+        .button{
+            background-color: blue;
+            color:white;
+            font-size:15px;
+            padding: 10px 24px;
+        }
+        .button:hover{
+            background-color:green;
+        }
+        
+    </style>
+</head>
+<body>
+    <div>
+    <h4>CONTACT US</h4>
+    <form>
+
+        <input type="text" name="name" placeholder="Name" size="30"><br><br>
+
+        <input type="text" name="email" placeholder="Email" size="30"><br><br>
+        <textarea rows="8" cols="35"></textarea><br><br>
+        <input type="button" class="button" name="Submit" value="Submit">
+        <input type="button" class="button" name="Reset" value="Reset">
+    </form>
+    </div>
+</body>
+</html>

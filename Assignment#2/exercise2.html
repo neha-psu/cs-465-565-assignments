@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <base href="http://placekitten.com/" target="_blank">
+    <title>placekitten</title>
+    <style>
+        #primary_container{
+            width: 824px;
+            margin: 50px auto;
+        }
+        #left_content{
+            width: 400px;
+            padding-right: 8px;
+            height: 582px;
+            float: left;
+            position: relative;
+        }
+        #right_content{
+            width: 408px;
+            float: right;
+            margin-left: 8px;
+            margin-bottom: 8px;
+        }
+
+        /* body{
+            font-size: 87.5%;
+            line-height: 1.57;
+        } */
+        #header{
+            width: 408px;
+            float: left;
+        }
+        header h1{
+            margin: 0 0 36px 0;
+            color: #999;
+            font: normal normal 5em Baskerville, Palatino, "Book Antiqua", serif;
+        }
+        p {
+            margin-bottom: 1em;
+        }
+        img {
+            vertical-align: bottom;
+            margin: 0;
+        }
+
+        .links{
+            padding: 8px 16px;
+            background: #444;
+            color: white;
+            font-weight: bold;
+            width: 376px;
+            position: absolute;
+            bottom: 295px;
+            margin-bottom: 0;
+        }
+        #img0{
+            position: absolute;
+            bottom: 0;
+        }
+        #img1, #img2, #img3{
+            float:left;
+        }
+        #img4, #img5, #img6, #img7{
+            float:right;
+        }
+        #right_content img{
+            margin-bottom: 8px;
+        }
+        #img1{
+            margin-right: 8px;
+        }
+        #img5, #img6, #img7{
+            margin-right: 8px;
+        }
+        #footer{
+            clear: both;
+            /* margin-top: 16px; */
+            border-top: 1px solid #D6D6D6;
+            padding: 12px 0;
+        }
+
+
+    </style>
+</head>
+<body>
+<div id="primary_container">
+    <div >
+        <div id="left_content">
+            <header id=header>
+                <h1>placekitten</h1>
+            </header>
+            <p><strong>A quick and simple service for getting pictures of kittens for 
+                use as placeholders in your designs or code.</strong> Just put your image size (width 
+                & height) after our URL and you'll get a placeholder.
+            </p>
+            <p class="links">
+                    Like this: <a href="200/300" style="color:lightgray;">http://placekitten.com/200/300</a><br>
+                        or: <a href="g/200/300" style="color: lightgray">http://placekitten.com/g/200/300</a>
+            </p>
+            <img id="img0"src ="http://placekitten.com/408/287">
+        </div>
+        <div id ="right_content">
+            <img id="img1" src ="200/287">
+            <img id="img2" src ="200/140">
+            <img id="img3" src ="200/139">
+            <img id="img4" src ="200/286">
+            <img id="img5" src ="96/140">
+            <img id="img6" src ="96/139">
+            <img id="img7" src ="200/138">
+        
+        </div>
+    </div>
+
+
+    <footer id=footer>
+        <p>
+                Delivered by <a href="http://mark.james.name" style="color:green;">Mark James</a>
+                & Photgraphers(<a href="attribution.html" style="color:green;">Image Attribution</a>) — 
+                <a href="https://placehold.it/" style="color:black">Inspired by placehold.it</a>
+        </p>
+    </footer>
+</div>
+</body>
+</html>
