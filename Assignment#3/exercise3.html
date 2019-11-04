@@ -7,14 +7,19 @@
     <title>Document</title>
 </head>
 <style>
-        .grid-container {
-          display: grid;
-          grid-template-columns: auto auto auto auto;
+        .flex-container {
+          display: flex;
+          flex-direction:row;
+          flex-wrap:wrap;
+          margin:40px;
+        
+
         }
-        .grid-item {
+        .flex-item {
           background-color:rgb(75, 74, 74);
-          height: 50px;
-          margin:4px;
+          height: 60px;
+          width:20.7%;
+          margin:6px;
           padding: 20px;
           color:white;
           border-radius:5px;
@@ -22,19 +27,19 @@
 </style>
 </head>
 <body>
-    <div class="grid-container">
-        <div class="grid-item">One</div>
-        <div class="grid-item">Two</div>
-        <div class="grid-item">Three</div>  
-        <div class="grid-item">Four</div>
-        <div class="grid-item">Five</div>
-        <div class="grid-item">Six</div>  
-        <div class="grid-item">Seven</div>
-        <div class="grid-item">Eight</div>
-        <div class="grid-item">Nine</div>
-        <div class="grid-item">Ten</div>
-        <div class="grid-item">Eleven</div>
-        <div class="grid-item">Twelve</div> 
+    <div class="flex-container">
+        <div class="flex-item">One</div>
+        <div class="flex-item">Two</div>
+        <div class="flex-item">Three</div>  
+        <div class="flex-item">Four</div>
+        <div class="flex-item">Five</div>
+        <div class="flex-item">Six</div>  
+        <div class="flex-item">Seven</div>
+        <div class="flex-item">Eight</div>
+        <div class="flex-item">Nine</div>
+        <div class="flex-item">Ten</div>
+        <div class="flex-item">Eleven</div>
+        <div class="flex-item">Twelve</div> 
     </div>
 </body>
 </html>
