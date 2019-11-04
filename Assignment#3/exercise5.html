@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .item1 { grid-area: one; }
+        .item2 { grid-area: two; }
+        .item3 { grid-area: three; }
+        .item4 { grid-area: four; }
+        .item5 { grid-area: five; }
+        .grid-container{
+            
+          display: grid;
+          grid-template-areas:'one one one one'
+                                'two two three three'
+                                    'two two four five ';
+         grid-gap:10px;
+         margin:40px;
+        }
+        .grid-container>div{
+            background-color:  rgb(61, 60, 60);
+            color:white;
+            line-height:100px;
+            border-radius: 5px;
+            padding-left:10px;
+            padding-top:-10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="item1">One</div>
+        <div class="item2">Two</div>
+        <div class="item3">Three</div>  
+        <div class="item4">Four</div>
+        <div class="item5">Five</div>
+      </div>
+</body>
+</html>
