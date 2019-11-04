@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .grid-container{
+            display:grid;
+            grid-template-columns: auto auto auto;
+            grid-template-rows: 50px 50px 50px 50px 50px 50px 50px;
+            grid-gap:5px;
+            margin:20px;
+        }
+        .grid-container>div{
+            background-color:  rgb(61, 60, 60);
+            color:white;
+            border-radius:5px;
+            padding:20px;
+        }
+        .item1{
+            grid-row:1 / span 6;
+            grid-column:1;
+        }
+        .item2{
+            grid-row-start:1;
+            grid-row-end: 5;
+            grid-column:2 / span 2;
+        }
+        .item3{
+            grid-row-start:5;
+            grid-row-end: 6;
+            grid-column:2 / span 2;
+        }
+        .item4{
+            grid-row-start:6;
+            grid-row-end:7;
+            grid-column:2 / span 2;
+        }
+        .item5{
+            grid-row-start:7;
+            grid-row-end:8;
+            grid-column:1 / span 3;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="item1">One</div>
+        <div class="item2">Two</div>
+        <div class="item3">Three</div>  
+        <div class="item4">Four</div>
+        <div class="item5">Five</div>
+    </div>
+</body>
+</html>
