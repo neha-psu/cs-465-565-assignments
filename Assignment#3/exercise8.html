@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .grid-container{
+            display:grid;
+            grid-template-columns: 100px 600px;
+            grid-template-rows: 50px 200px 50px;
+            grid-gap:10px;
+        }
+        .grid-container>div{
+            background-color:  rgb(61, 60, 60);
+            color:white;
+            border-radius:5px;
+            padding:20px;
+        }
+        .item1{
+            grid-column:1 / span 7;
+            grid-row: 1;
+        }
+        .item2{
+            grid-column:1;
+            grid-row: 2;
+        }
+        .item3{
+            grid-column:2/ span 6;
+            grid-row: 2;
+        }
+        .item4{
+            grid-column:1 / span 7;
+            grid-row: 3;
+        }
+
+        @media screen and (max-width: 780px) {
+            .grid-container{
+                grid-template-columns: repeat( auto-fill, minmax(200px, 1fr) );
+            }
+
+            .item1{
+            grid-column:1 / span 7;
+            grid-row: 1;
+        }
+        .item2{
+            grid-column:1 / span 7;
+            grid-row: 3;
+        }
+        .item3{
+            grid-column:1 / span 7;
+            grid-row: 2;
+        }
+        .item4{
+            grid-column:1 / span 7;
+            grid-row: 4;
+        }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="item1">Header</div>
+        <div class="item2">Aside</div>
+        <div class="item3">Article
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat natus, blanditiis modi saepe commodi sit minus id iste vel culpa, adipisci nobis quaerat nesciunt eveniet nostrum dolorum repudiandae sint laboriosam!
+            </p></div>  
+        <div class="item4">Footer</div>
+    </div>
+</body>
+</html>
