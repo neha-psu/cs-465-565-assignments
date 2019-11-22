@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <title>Document</title>
+    <style>
+    #submit{
+        background-color: black;
+        color:white;
+        width:120px;
+        height:60px;
+        
+    }
+    </style>
+</head>
+<body>
+    <input type="button" id="submit" value="background-color">
+
+    <script type="text/javascript">
+
+    //  $('#submit').on('click', function() {
+    //             $("body").css("background-color", getRandomColor());                   
+    //     });
+
+    // function getRandomColor() {
+    //     var hex = '0123456789ABCDEF';
+    //     var color = '#';
+    //     for (var i = 0; i < 6; i++) {
+    //         color += hex[Math.floor(Math.random() * 16)];
+    //     }
+    //     return color;
+    // }
+
+    $("#submit").on("click", function(){
+        $("body")
+            .css({
+                "background-color": "rgb(" + Math.floor(Math.random() * 256)  + ","
+                                            + Math.floor(Math.random() * 256)  + ","
+                                            + Math.floor(Math.random() * 256)  + ")"
+            })
+    })
+
+    </script>
+</body>
+</html>

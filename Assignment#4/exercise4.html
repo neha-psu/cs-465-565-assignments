@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body onload="Size()" onresize="Size()"> 
+    <div id="width">
+    </div>
+    <div id="height">
+    </div>
+
+    <script>
+        function Size()
+        {
+        var width = document.documentElement.clientWidth;
+        var height = document.documentElement.clientHeight;
+                
+        document.getElementById("width").innerHTML = "<h1>Width: " + width + "</h1>";
+        document.getElementById("height").innerHTML="<h1>Height:" + height + "</h1>";
+        }
+    </script>
+</body>
+</html>

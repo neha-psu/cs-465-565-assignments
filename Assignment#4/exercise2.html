@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript">
+                function reverse_of_number(n){
+                    var rem, revnum = 0;
+                    while( n){
+                        rem = n%10;
+                        revnum=(revnum*10) + rem;
+                        n = n/10|0;
+                    }
+                    return revnum;
+                }
+                console.log("Reverse number: " + reverse_of_number(+prompt("Enter a value") ) );
+    </script>
+</body>
+</html>
