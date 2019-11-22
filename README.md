@@ -1,20 +1,22 @@
-####  Assignment#1 
+####  Assignment#1  
 ###### Added exercise 1 --- form layout without css
 ###### Added exercise 2 --- http://placekitten.com/ without css
 ###### Added exercise 3 --- portfolio without css (first draft)
 
-Assignment#2 ---- Added exercise 1 --- form layout with css
-                  Added exercise 2 --- http://placekitten.com/ with css 
-                  Added exercise 3 --- portfolio with css (second draft)
+####  Assignment#1  
+###### Added exercise 1 --- form layout with css
+###### Added exercise 2 --- http://placekitten.com/ with css
+###### Added exercise 3 --- portfolio with css (second draft)
 
-Assignment#3 ---- Added exercise 1 --- Implemented it using bootstrap
-                  Added exercise 2 --- Implemented it using bootstrap 
-                  Added exercise 3 --- CSS Flexbox layout
-                  Added exercise 4 --- Bootstrap grid
-                  Added exercise 5 --- CSS grid layout
-                  Added exercise 6 --- CSS grid layout
-                  Added exercise 7 --- CSS grid layout
-                  Added exercise 8 --- CSS grid layout
+####  Assignment#3 
+###### Added exercise 1 --- Implemented it using bootstrap
+###### Added exercise 2 --- Implemented it using bootstrap
+###### Added exercise 3 --- CSS Flexbox layout
+###### Added exercise 4 --- Implemented it using bootstrap
+###### Added exercise 5 --- CSS grid layout
+###### Added exercise 6 --- CSS grid layout
+###### Added exercise 7 --- CSS grid layout
+###### Added exercise 8 --- CSS grid layout
                   
 Assignment#4 ---- Added exercise 1 --- display fizzbuzz in the console
                   Added exercise 2 --- reverse of the number displayed in the console. (user can enter the number in the alert box popped                                        up in the screen)
