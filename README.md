@@ -1,7 +1,7 @@
 ####  Assignment#1 
 ###### Added exercise 1 --- form layout without css
-Added exercise 2 --- http://placekitten.com/ without css
-Added exercise 3 --- portfolio without css (first draft)
+###### Added exercise 2 --- http://placekitten.com/ without css
+###### Added exercise 3 --- portfolio without css (first draft)
 
 Assignment#2 ---- Added exercise 1 --- form layout with css
                   Added exercise 2 --- http://placekitten.com/ with css 
